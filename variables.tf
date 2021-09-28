@@ -6,6 +6,6 @@ variable "keyVault" {
     kv_disk_encryption=string
     soft_deletion_retention_days=string
     purge_protection=string
-    resource_group_name=string
   })
 }
+variable "resource_group_name" {}
